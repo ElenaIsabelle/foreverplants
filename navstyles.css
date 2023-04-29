@@ -1,0 +1,51 @@
+/* 
+	Elena Phillips
+	4/23
+	navstyles.css
+	
+		DOC NOTES
+	==============================================
+	- This stylesheet is for the navigation styles.
+	- Font-Awesome icons were added to the nav bar 
+	using cloudflare link.
+	
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(229, 255, 184);
+}
+
+li {
+  float: left;
+  letter-spacing: 2px;
+}
+
+li a {
+  display: block;
+  color: rgb(84, 17, 39);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(179, 212, 121);
+}
+
+footer {
+	display: block;
+	text-align: right;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(229, 255, 184);
+}
+
+footer > p {
+	color: rgb(84, 17, 39);
+	text-decoration: none;
+}

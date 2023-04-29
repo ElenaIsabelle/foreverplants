@@ -1,0 +1,45 @@
+/* 
+	Elena Phillips
+	4/23
+	about.css
+	
+		DOC NOTES
+	==============================================
+	
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 254, 239);
+    background-size: cover;
+    font-size: 14px;
+}
+
+h1 {
+	display: block;
+	margin: 1.5em; 
+	color: rgb(84, 17, 39);
+}
+
+ol {
+	margin-left: 20px; 
+	color: rgb(84, 17, 39);
+}
+
+.story {
+	display: block;
+	font-size: 14px;
+	color: rgb(84, 17, 39);
+	margin: 0px 200px 0px 50px;
+}
+
+.footer {
+	position: absolute; 
+	bottom: 0; left: 0; right: 0;
+}

@@ -1,0 +1,30 @@
+/* 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url("home_background.jpg") no-repeat;
+  background-size: cover;
+  font-size: 14px;
+}
+
+.flex-container {
+  height: 300px;
+  margin: 200px 0px 200px 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgba(229, 255, 184, 0.8);
+}
+
+.flex-container > img {
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 85%;
+}

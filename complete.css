@@ -1,0 +1,30 @@
+/* 
+	Elena Phillips
+	4/23
+	complete.css
+	
+		DOC NOTES
+	==============================================
+	
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 254, 239);
+    background-size: cover;
+    font-size: 14px;
+}
+
+p {
+	display: block;
+	margin-top: 2em;
+	transform: translateX(20px);
+	color: rgb(84, 17, 39);
+	font-size: 20px;
+}

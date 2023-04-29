@@ -1,0 +1,175 @@
+
+/*
+	Elena Phillips
+	4/23
+	cart.css
+	
+		DOC NOTES
+	==============================================
+	
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 254, 239);
+    background-size: cover;
+    font-size: 14px;
+	color: rgb(84, 17, 39);
+}
+
+h1 {
+	margin: 50px;
+}
+
+section {
+	margin: 3em;
+	display: flex;
+}
+
+/* Payment Form Styles */
+
+section#paySection {
+   -webkit-flex: 1 1 400px;
+   flex: 1 1 400px;
+   border-top: 4px double rgb(84, 17, 39);
+   border-left: 4px double rgb(84, 17, 39); 
+   border-right: 4px double rgb(84, 17, 39); 
+   border-bottom: 4px double rgb(84, 17, 39);
+   min-height: 400px;
+}
+
+section#paySection form#payment fieldset#cards {
+   display: block;
+   clear: left;
+}
+
+section#paySection p#footnote {
+   font-size: 1em;
+   text-align: left;
+   margin: 0px 10px 20px 140px;
+
+}
+
+section#paySection h1 {
+   text-align: center;
+   font-size: 2em;
+   letter-spacing: 0.15em;
+   margin: 20px 0px;
+   font-weight: normal;
+   color: rgb(84, 17, 39);
+   padding: 10px;
+}
+
+form#payment fieldset {
+   border: none;
+}
+
+
+form#payment fieldset#cards label:first-of-type {
+   text-align: right;
+   margin-left: 50px;
+}
+
+form#payment legend {
+   font-size: 1.3em;
+   padding: 10px;
+   width: 80%;
+   text-align: left;
+   margin-left: 50px;
+   margin-bottom: 20px;
+   color: rgb(84, 17, 39);
+}
+
+
+/* Input and Label Styles */
+
+form#payment label {
+   display: block;
+   float: left;
+   clear: left;
+   font-size: 0.9em;
+   margin-bottom: 20px;
+   margin-right: 10px;
+   width: 180px;
+   text-align: right;
+   color: rgb(84, 17, 39);
+}
+
+
+form#payment input, form#payment select {
+   display: block;
+   float: left;
+   box-shadow: 0px 0px 15px white;
+}
+
+/* Radio Button Styles */
+
+form#payment label.cardLabel {
+   display: inline-block;
+   float: none;
+   width: auto;
+}
+
+form#payment fieldset#cards img {
+   display: inline-block;
+   margin-left: 5px;
+   box-shadow: 0px 0px 10px rgb(84, 17, 39);
+}
+
+
+form#payment input[type='radio'] {
+   display: inline-block;
+   width: auto;
+   float: none;
+   clear: none;
+}
+
+form#payment fieldset#cards {
+   text-align: left;
+   margin-left: 50px;
+}
+
+form#payment span {
+   width: 30px;
+   text-align: center;
+   display: block;
+   float: left;
+}
+
+form#payment input#cvc {
+   width: 3em;
+}
+
+form#payment input#subButton {
+   display: block;
+   width: 180px;
+   height: 35px;
+   margin: 15px 0px 10px 200px;
+   background-color: rgba(232, 218, 201, 0.8);
+   font-size: 1.3em;
+   border-radius: 20px;
+   float: none;
+}
+
+/* Valid and Invalid Styles */
+
+input:invalid, input:focus:invalid, select:invalid, select:focus:invalid {
+   outline: none;
+   background-color: rgba(221,147,148,0.2);
+ }
+
+input:valid, input:focus:valid, select:valid, select:focus:valid {
+   outline: none;
+   background-color: none;
+}
+
+.footer {
+	position: absolute; 
+	bottom: 0; left: 0; right: 0;
+}
