@@ -3,7 +3,7 @@
 /*
 	Elena Phillips
 	4/23
-	cart.js
+	cartshop.js
 	
 		DOC NOTES
 	==============================================
@@ -47,12 +47,6 @@ window.addEventListener("load", function(){
 	formData = formData.replace(/\+/g," ");
 	formData = decodeURIComponent(formData);
 	var formFields = formData.split(/[&=}/g);
-
-	// Write the field values to the order form
-	document.forms.order.elements.subtotal.value = formFields[17];
-	document.forms.order.elements.salesTax.value = formFields[19];
-	document.forms.order.elements.totalCost.value = formFields[21];
-});
 
 window.addEventListener("load", function() {
 	document.getElementById("subButton").onclick = runSubmit;
