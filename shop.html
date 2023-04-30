@@ -14,6 +14,7 @@
    <link href="shopplantsstyles.css" rel="stylesheet" />
    <link href="navstyles.css" rel="stylesheet" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <script href="order.js" async></script>
 </head>
 
 
@@ -29,23 +30,51 @@
 	<aside>
 		<div class="sidebar">
 			<ul>
-				<li><a href="">New Arrivals</a></li>
-				<li><a href="">Potted Flowers</a></li>
-				<li><a href="">Perennial Flowers</a></li>
-				<li><a href="">Annual Flowers</a></li>
-				<li><a href="">House Plants</a></li>
-				<li><a href="">Edible Plants</a></li>
-				<li><a href="">Fruit Trees</a></li>
-				<li><a href="">Premium Seeds</a></li>
-				<li><a href="">Decorative Pots</a></li>
-				<li><a href="">Gardening Tools</a></li>
+				<li><a href="shop.html">New Arrivals</a></li>
+				<li><a href="pottedflowers.html">Potted Flowers</a></li>
+				<li><a href="perennialflowers.html">Perennial Flowers</a></li>
+				<li><a href="annualflowers.html">Annual Flowers</a></li>
+				<li><a href="houseplants.html">House Plants</a></li>
+				<li><a href="edibleplants.html">Edible Plants</a></li>
+				<li><a href="fruittrees.html">Fruit Trees</a></li>
+				<li><a href="premiumseeds.html">Premium Seeds</a></li>
+				<li><a href="decorativepots.html">Decorative Pots</a></li>
+				<li><a href="gardeningtools.html">Gardening Tools</a></li>
 		</div>
 	</aside>
 	
 	<header>
 		<div class="flex-container">
-			<div><p>~Patio trees make great gifts.~</p><img src="patiotrees.jpg" alt="mini trees" width="518" height="518"></div>
+			<div><p>~New Arrivals! Patio trees make great gifts.~</p><img src="patiotrees.jpg" alt="mini trees" width="400" height="400">
+			<p>We have a variety of mini patio trees in stock. $21.99 each.</p>
+			<form id="orderForm" name="orderForm" method="get" action="cartshop.html">
+				<table id="orderTable">
+					<tr>
+					  <td>
+						 <label for="model">Mini Patio Trees</label>   
+						 <input type="hidden" id="modelName" name="modelName" />
+					  </td>
+					</tr>
+					<tr>
+					  <td class="rightA">
+						 <label for="qty">Qty</label>
+						 <select name="qty" id="qty">
+							<option value="1" selected>1</option>
+							<option value="2">2</option><option value="3">3</option>
+							<option value="4">4</option><option value="5">5</option><option value="6">6</option>
+							<option value="7">7</option><option value="8">8</option><option value="9">9</option>
+							<option value="10">10</option>
+						 </select>   
+					  </td>                 
+					</tr>
+					<tr>
+				</table>
+				<input type="submit" id="buttonAdd" value="add to cart" />
+			</form>
+			</div>
 		</div>  
+		
+
 	</header>
 	<div class="footer">
 	  <footer>
